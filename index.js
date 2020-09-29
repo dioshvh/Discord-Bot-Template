@@ -1,5 +1,5 @@
 const Discord = require ('discord.js');
-const config = require("./config.json"); //make a 'config.json'// crea un archivo 'config.sjon' //
+const config = require("./config.json"); //make a 'config.json'// crea un archivo 'config.json' //
 const client = new Discord.Client();
  
 client.on('ready', ()=> {
@@ -20,8 +20,8 @@ client.on("message", async message => {
   
   if(command === 'say'){ 
   const SayCMD = args.join(" "); // lo que introduzcas despues del comando se enviará
-    message.delete().catch(O_o=>{}); //bot delete your text// el bot elimina tu mensaje
-    message.channel.send(SayCMD); //bot send your text// el bot manda tu mensaje
+   message.delete().catch(O_o=>{}); //bot delete your text// el bot elimina tu mensaje
+   message.channel.send(SayCMD); //bot send your text// el bot manda tu mensaje
   }
   
 });
