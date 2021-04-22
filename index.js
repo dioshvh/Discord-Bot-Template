@@ -4,7 +4,7 @@ const client = new Discord.Client();
  
 client.on('ready', ()=> {
   console.log('bot is ready!');
-  client.user.setActivity('Tuto by zTa', {type: 'STREAMING', url:"https://youtube.com/zDrarMc"}).catch
+  client.user.setActivity('Tuto by zTa', {type: 'STREAMING', url:"UR WEBSITE"}).catch
 });
  
 client.on("message", async message => {
